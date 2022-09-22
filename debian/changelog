@@ -1,0 +1,59 @@
+node-when (3.7.8+ds-7) unstable; urgency=medium
+
+  * Mark the nodejs dep as :any.
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 27 Sep 2021 09:36:41 +0200
+
+node-when (3.7.8+ds-6) unstable; urgency=medium
+
+  * Use secure URI in Homepage field.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Wed, 15 Sep 2021 10:57:07 +0100
+
+node-when (3.7.8+ds-5) unstable; urgency=medium
+
+  * Fix d/watch.
+  * Bump standards-version to 4.6.0.
+  * Marked superficial autopkgtest as such.
+
+ -- Julien Puydt <jpuydt@debian.org>  Thu, 26 Aug 2021 18:37:43 +0200
+
+node-when (3.7.8+ds-4) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Julien Puydt ]
+  * Mark the package Multi-Arch: foreign following hinter.
+  * Declare d/rules doesn't require root.
+  * Bump dh compat to 13.
+
+ -- Julien Puydt <jpuydt@debian.org>  Wed, 14 Oct 2020 21:59:27 +0200
+
+node-when (3.7.8+ds-3) unstable; urgency=medium
+
+  * Drop d/compat and swith to dh-compat 12.
+  * Bump std-ver to 4.5.0.
+  * Install to /usr/share/nodejs instead of /usr/lib/nodejs.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 12 Apr 2020 16:56:33 +0200
+
+node-when (3.7.8+ds-2) unstable; urgency=medium
+
+  * Refresh packaging:
+    - Use my debian.org mail address.
+    - Point Vcs-* fields to salsa.
+    - Bump dh compat to 11.
+    - Bump std-ver to 4.2.0.
+    - Don't ship doc outside /usr/share/doc.
+
+ -- Julien Puydt <jpuydt@debian.org>  Wed, 08 Aug 2018 00:32:35 +0200
+
+node-when (3.7.8+ds-1) unstable; urgency=low
+
+  * Initial release (Closes: #873188)
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Fri, 25 Aug 2017 14:17:19 +0200

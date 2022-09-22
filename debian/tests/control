@@ -1,0 +1,6 @@
+Tests: require
+Restrictions: superficial
+Depends: @
+
+Tests: smoketest
+Depends: @

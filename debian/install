@@ -1,0 +1,8 @@
+*.js usr/share/nodejs/when/
+bower.json usr/share/nodejs/when/
+lib usr/share/nodejs/when/
+monitor usr/share/nodejs/when/
+node usr/share/nodejs/when/
+package.json usr/share/nodejs/when/
+scripts usr/share/nodejs/when/
+unfold usr/share/nodejs/when/

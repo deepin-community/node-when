@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+node -e "when=require('when');when(2, function(x){return x+3}).then(function(result){result == 5 || process.exit(1)})"
+node -e "when=require('when');when(0, function(x){throw new Error()}).then(function(x) {process.exit(1)}).catch(function (x) {process.exit(0)})"
